@@ -1,5 +1,10 @@
 # XOR
 
+- a simple encryption ES module using exclusive or (XOR)
+- XORを使ったシンプルな暗号化ESモジュールです
+
+## Usage
+
 ```javascript
 import { XOR } from "https://code4fukui.github.io/XOR/XOR.js";
 
