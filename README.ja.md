@@ -1,10 +1,8 @@
 # XOR
 
-> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+排他的論理和 (XOR) を用いたシンプルな暗号化ESモジュール。
 
-A simple encryption ES module using exclusive or (XOR).
-
-## Usage
+## 使い方
 
 ```javascript
 import { XOR } from "https://code4fukui.github.io/XOR/XOR.js";
@@ -19,6 +17,6 @@ const dec = XOR.convert(data, pass);
 console.log("convert", new TextDecoder().decode(dec));
 ```
 
-## License
+## ライセンス
 
-MIT License — see [LICENSE](LICENSE).
+MIT License — 詳細は [LICENSE](LICENSE) を参照してください。
